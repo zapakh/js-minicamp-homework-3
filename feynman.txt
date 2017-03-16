@@ -1,0 +1,27 @@
+Objects
+
+Objects in JavaScript are associative arrays.  
+Properties
+
+Properties are the values of the key-value pairs that constitute the
+associative arrays that objects are.
+
+Methods
+
+The values of an object that are functions are typically called methods.
+Inside a method, the "this" keyword refers to the object to which the method
+belongs.
+
+for..in loop
+
+The syntax `for (k in obj) { ... }` executes the block once for each key of
+the given object.  You have a variable `k` that contains the key on each
+iteration, and you can get the corresponding value as usual, using `obj[k]`.
+
+dot notation vs bracket notation
+
+In order that associative arrays in JavaScript should look more like objects,
+you may use the obj.prop notation as equivalent to obj['prop'].  The dot
+notation is generally preferred when the key is a constant; the bracket
+notation is required otherwise.
+
